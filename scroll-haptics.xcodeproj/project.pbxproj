@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF87CFC2C2DD6FF0033EE9B /* scroll_hapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */; };
+		CEF87CFE2C2DD6FF0033EE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */; };
+		CEF87D002C2DD7010033EE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF87CFF2C2DD7010033EE9B /* Assets.xcassets */; };
+		CEF87D032C2DD7010033EE9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF87D022C2DD7010033EE9B /* Preview Assets.xcassets */; };
+		CEF87D0E2C2DD7010033EE9B /* scroll_hapticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87D0D2C2DD7010033EE9B /* scroll_hapticsTests.swift */; };
+		CEF87D182C2DD7010033EE9B /* scroll_hapticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87D172C2DD7010033EE9B /* scroll_hapticsUITests.swift */; };
+		CEF87D1A2C2DD7010033EE9B /* scroll_hapticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87D192C2DD7010033EE9B /* scroll_hapticsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF87D0A2C2DD7010033EE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF87CF02C2DD6FF0033EE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF87CF72C2DD6FF0033EE9B;
+			remoteInfo = "scroll-haptics";
+		};
+		CEF87D142C2DD7010033EE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF87CF02C2DD6FF0033EE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF87CF72C2DD6FF0033EE9B;
+			remoteInfo = "scroll-haptics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF87CF82C2DD6FF0033EE9B /* scroll-haptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scroll-haptics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_hapticsApp.swift; sourceTree = "<group>"; };
+		CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEF87CFF2C2DD7010033EE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF87D022C2DD7010033EE9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF87D042C2DD7010033EE9B /* scroll_haptics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scroll_haptics.entitlements; sourceTree = "<group>"; };
+		CEF87D092C2DD7010033EE9B /* scroll-hapticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scroll-hapticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF87D0D2C2DD7010033EE9B /* scroll_hapticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_hapticsTests.swift; sourceTree = "<group>"; };
+		CEF87D132C2DD7010033EE9B /* scroll-hapticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scroll-hapticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF87D172C2DD7010033EE9B /* scroll_hapticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_hapticsUITests.swift; sourceTree = "<group>"; };
+		CEF87D192C2DD7010033EE9B /* scroll_hapticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_hapticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF87CF52C2DD6FF0033EE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D062C2DD7010033EE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D102C2DD7010033EE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF87CEF2C2DD6FF0033EE9B = {
+			isa = PBXGroup;
+			children = (
+				CEF87CFA2C2DD6FF0033EE9B /* scroll-haptics */,
+				CEF87D0C2C2DD7010033EE9B /* scroll-hapticsTests */,
+				CEF87D162C2DD7010033EE9B /* scroll-hapticsUITests */,
+				CEF87CF92C2DD6FF0033EE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF87CF92C2DD6FF0033EE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF87CF82C2DD6FF0033EE9B /* scroll-haptics.app */,
+				CEF87D092C2DD7010033EE9B /* scroll-hapticsTests.xctest */,
+				CEF87D132C2DD7010033EE9B /* scroll-hapticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF87CFA2C2DD6FF0033EE9B /* scroll-haptics */ = {
+			isa = PBXGroup;
+			children = (
+				CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */,
+				CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */,
+				CEF87CFF2C2DD7010033EE9B /* Assets.xcassets */,
+				CEF87D042C2DD7010033EE9B /* scroll_haptics.entitlements */,
+				CEF87D012C2DD7010033EE9B /* Preview Content */,
+			);
+			path = "scroll-haptics";
+			sourceTree = "<group>";
+		};
+		CEF87D012C2DD7010033EE9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEF87D022C2DD7010033EE9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEF87D0C2C2DD7010033EE9B /* scroll-hapticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF87D0D2C2DD7010033EE9B /* scroll_hapticsTests.swift */,
+			);
+			path = "scroll-hapticsTests";
+			sourceTree = "<group>";
+		};
+		CEF87D162C2DD7010033EE9B /* scroll-hapticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF87D172C2DD7010033EE9B /* scroll_hapticsUITests.swift */,
+				CEF87D192C2DD7010033EE9B /* scroll_hapticsUITestsLaunchTests.swift */,
+			);
+			path = "scroll-hapticsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF87CF72C2DD6FF0033EE9B /* scroll-haptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF87D1D2C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-haptics" */;
+			buildPhases = (
+				CEF87CF42C2DD6FF0033EE9B /* Sources */,
+				CEF87CF52C2DD6FF0033EE9B /* Frameworks */,
+				CEF87CF62C2DD6FF0033EE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scroll-haptics";
+			productName = "scroll-haptics";
+			productReference = CEF87CF82C2DD6FF0033EE9B /* scroll-haptics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF87D082C2DD7010033EE9B /* scroll-hapticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF87D202C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-hapticsTests" */;
+			buildPhases = (
+				CEF87D052C2DD7010033EE9B /* Sources */,
+				CEF87D062C2DD7010033EE9B /* Frameworks */,
+				CEF87D072C2DD7010033EE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF87D0B2C2DD7010033EE9B /* PBXTargetDependency */,
+			);
+			name = "scroll-hapticsTests";
+			productName = "scroll-hapticsTests";
+			productReference = CEF87D092C2DD7010033EE9B /* scroll-hapticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF87D122C2DD7010033EE9B /* scroll-hapticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF87D232C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-hapticsUITests" */;
+			buildPhases = (
+				CEF87D0F2C2DD7010033EE9B /* Sources */,
+				CEF87D102C2DD7010033EE9B /* Frameworks */,
+				CEF87D112C2DD7010033EE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF87D152C2DD7010033EE9B /* PBXTargetDependency */,
+			);
+			name = "scroll-hapticsUITests";
+			productName = "scroll-hapticsUITests";
+			productReference = CEF87D132C2DD7010033EE9B /* scroll-hapticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF87CF02C2DD6FF0033EE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CEF87CF72C2DD6FF0033EE9B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CEF87D082C2DD7010033EE9B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEF87CF72C2DD6FF0033EE9B;
+					};
+					CEF87D122C2DD7010033EE9B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEF87CF72C2DD6FF0033EE9B;
+					};
+				};
+			};
+			buildConfigurationList = CEF87CF32C2DD6FF0033EE9B /* Build configuration list for PBXProject "scroll-haptics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF87CEF2C2DD6FF0033EE9B;
+			productRefGroup = CEF87CF92C2DD6FF0033EE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF87CF72C2DD6FF0033EE9B /* scroll-haptics */,
+				CEF87D082C2DD7010033EE9B /* scroll-hapticsTests */,
+				CEF87D122C2DD7010033EE9B /* scroll-hapticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF87CF62C2DD6FF0033EE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF87D032C2DD7010033EE9B /* Preview Assets.xcassets in Resources */,
+				CEF87D002C2DD7010033EE9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D072C2DD7010033EE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D112C2DD7010033EE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF87CF42C2DD6FF0033EE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF87CFE2C2DD6FF0033EE9B /* ContentView.swift in Sources */,
+				CEF87CFC2C2DD6FF0033EE9B /* scroll_hapticsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D052C2DD7010033EE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF87D0E2C2DD7010033EE9B /* scroll_hapticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF87D0F2C2DD7010033EE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF87D1A2C2DD7010033EE9B /* scroll_hapticsUITestsLaunchTests.swift in Sources */,
+				CEF87D182C2DD7010033EE9B /* scroll_hapticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF87D0B2C2DD7010033EE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF87CF72C2DD6FF0033EE9B /* scroll-haptics */;
+			targetProxy = CEF87D0A2C2DD7010033EE9B /* PBXContainerItemProxy */;
+		};
+		CEF87D152C2DD7010033EE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF87CF72C2DD6FF0033EE9B /* scroll-haptics */;
+			targetProxy = CEF87D142C2DD7010033EE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEF87D1B2C2DD7010033EE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF87D1C2C2DD7010033EE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CEF87D1E2C2DD7010033EE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "scroll-haptics/scroll_haptics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scroll-haptics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEF87D1F2C2DD7010033EE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "scroll-haptics/scroll_haptics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scroll-haptics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEF87D212C2DD7010033EE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-hapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scroll-haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/scroll-haptics";
+			};
+			name = Debug;
+		};
+		CEF87D222C2DD7010033EE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-hapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scroll-haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/scroll-haptics";
+			};
+			name = Release;
+		};
+		CEF87D242C2DD7010033EE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-hapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "scroll-haptics";
+			};
+			name = Debug;
+		};
+		CEF87D252C2DD7010033EE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.scroll-hapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "scroll-haptics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF87CF32C2DD6FF0033EE9B /* Build configuration list for PBXProject "scroll-haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF87D1B2C2DD7010033EE9B /* Debug */,
+				CEF87D1C2C2DD7010033EE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF87D1D2C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF87D1E2C2DD7010033EE9B /* Debug */,
+				CEF87D1F2C2DD7010033EE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF87D202C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-hapticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF87D212C2DD7010033EE9B /* Debug */,
+				CEF87D222C2DD7010033EE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF87D232C2DD7010033EE9B /* Build configuration list for PBXNativeTarget "scroll-hapticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF87D242C2DD7010033EE9B /* Debug */,
+				CEF87D252C2DD7010033EE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF87CF02C2DD6FF0033EE9B /* Project object */;
+}
