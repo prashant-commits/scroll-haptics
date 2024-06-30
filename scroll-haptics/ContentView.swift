@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Cocoa
 
 struct ContentView: View {
     var body: some View {
@@ -14,8 +15,15 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button("Sign In", systemImage: "arrow.up") {() -> Void in
+                print(0)
+                
+            }
+
         }
         .padding()
+        .frame(width: 300, height: 300)
+        
     }
 }
 

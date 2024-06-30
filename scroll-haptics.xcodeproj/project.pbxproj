@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB4EC752C2F73420081EF31 /* GlobalEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4EC742C2F73420081EF31 /* GlobalEventMonitor.swift */; };
+		CEB4EC772C2F81ED0081EF31 /* HapticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4EC762C2F81ED0081EF31 /* HapticManger.swift */; };
+		CEB4EC7A2C3034880081EF31 /* AppViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4EC792C3034880081EF31 /* AppViewModal.swift */; };
 		CEF87CFC2C2DD6FF0033EE9B /* scroll_hapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */; };
 		CEF87CFE2C2DD6FF0033EE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */; };
 		CEF87D002C2DD7010033EE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF87CFF2C2DD7010033EE9B /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEB4EC742C2F73420081EF31 /* GlobalEventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEventMonitor.swift; sourceTree = "<group>"; };
+		CEB4EC762C2F81ED0081EF31 /* HapticManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManger.swift; sourceTree = "<group>"; };
+		CEB4EC792C3034880081EF31 /* AppViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModal.swift; sourceTree = "<group>"; };
 		CEF87CF82C2DD6FF0033EE9B /* scroll-haptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scroll-haptics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll_hapticsApp.swift; sourceTree = "<group>"; };
 		CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEB4EC732C2F732E0081EF31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4EC742C2F73420081EF31 /* GlobalEventMonitor.swift */,
+				CEB4EC762C2F81ED0081EF31 /* HapticManger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CEB4EC782C30345D0081EF31 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4EC792C3034880081EF31 /* AppViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
 		CEF87CEF2C2DD6FF0033EE9B = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +118,8 @@
 		CEF87CFA2C2DD6FF0033EE9B /* scroll-haptics */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4EC782C30345D0081EF31 /* ViewModal */,
+				CEB4EC732C2F732E0081EF31 /* Utils */,
 				CEF87CFB2C2DD6FF0033EE9B /* scroll_hapticsApp.swift */,
 				CEF87CFD2C2DD6FF0033EE9B /* ContentView.swift */,
 				CEF87CFF2C2DD7010033EE9B /* Assets.xcassets */,
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB4EC772C2F81ED0081EF31 /* HapticManger.swift in Sources */,
+				CEB4EC7A2C3034880081EF31 /* AppViewModal.swift in Sources */,
 				CEF87CFE2C2DD6FF0033EE9B /* ContentView.swift in Sources */,
 				CEF87CFC2C2DD6FF0033EE9B /* scroll_hapticsApp.swift in Sources */,
+				CEB4EC752C2F73420081EF31 /* GlobalEventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"scroll-haptics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"scroll-haptics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
